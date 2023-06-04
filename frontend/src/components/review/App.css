@@ -1,0 +1,126 @@
+
+
+.courseInfo {
+    margin-top: 40px;
+    width: 1100px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.courseDes {
+    margin-top: 30px;
+    width: 1100px;
+    border-radius: 10px;
+}
+
+.courseDes p {
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: white;
+    box-shadow: 0 0 8px rgb(174, 174, 174);
+}
+
+.bottom {
+    height: 230px;
+    width: 1000px;
+    display: flex;
+}
+
+.reviews {
+    margin-top: 60px;
+}
+.review {
+    height: 300px;
+    font-family: 'San Francisco', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.info {
+    border-radius: 7px;
+    background-color: rgba(56, 54, 54, 0.948);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    display: flex;
+    color: white;
+    width: 1000px;
+
+}
+
+.review-rating {
+    border-radius: 7px;
+    background-color:white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    height: 230px;
+    width: 230px;
+}
+
+.subRating {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(240, 233, 233);
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.cont {
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    height: 230px;
+    width: 80%;
+}
+
+.subCont {
+    border: 1px solid rgb(181, 181, 181);
+    height: 200px;
+    width: 750px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.subCont p {
+    padding: 10px;
+    font-weight: 800;
+}
+
+#difficulty {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    height: 20%;
+}
+
+#num-difficulty {
+    text-align: center;
+    font-size: 70px;
+    height: 60%;
+    color: rgb(208, 37, 37);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#star-difficulty {
+    text-align: center;
+    margin-bottom: 0px;
+    height: 20%;
+}
+
+#review-date, #course, #author {
+        flex: 1;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+  justify-content: center;
+}
+

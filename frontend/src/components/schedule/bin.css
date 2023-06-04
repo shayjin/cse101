@@ -1,0 +1,93 @@
+#dustbin {
+    background-color: rgba(28, 27, 27, 0.948);
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 120px;
+    height: 223px;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    color: white;
+}
+
+.binContainer {
+    height: 480px;
+    width: 1050px;
+    background-color: rgb(210, 210, 210);
+    box-shadow: 0 0 4px rgb(109, 109, 109);
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.boxes {
+    width: 1050px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}
+
+.boxes div {
+    border-radius: 3px;
+   width: 80px !important;
+   height: 45px !important; 
+   margin: 0px !important;
+   font-size: 11px !important;
+   text-align: center !important;
+    border: 0.05px solid rgb(172, 166, 166);
+   box-shadow: 0 0 8px rgb(63, 63, 63);
+}
+
+.class {
+    border: 0.1px dotted rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.optedOutClass {
+    border: 0.5px solid rgb(255, 255, 255);
+    width: 16.6666%;
+    display: inline-block;
+}
+
+.semesterContainer {
+    
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    float:left;
+}
+
+#optedOut {
+    border-radius: 5px;
+    background-color: rgba(28, 27, 27, 0.948);
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+
+.classType {
+    width: 1000px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.classType div {
+    margin-left: 1px;
+    margin-right: 1px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1.5px;
+    border-radius: 3px;
+}
+
+.classType div div {
+    display: inline-block;
+}
+
+.resetButton {
+    font-size: 13px;
+}

@@ -1,0 +1,122 @@
+.write {
+  width: 1000px;
+  height: 750px;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.survey {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.question label {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+input, select {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+.stars input[type="radio"] {
+  display: none;
+}
+
+.stars label {
+  font-size: 25px;
+  color: #ccc;
+  cursor: pointer;
+  order: 1;
+  margin-right: -3px;
+}
+
+#star1 {
+  color: gray;
+}
+
+#star1:active {
+  color: rgb(203, 25, 25);
+}
+
+.reset-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -20px;
+  margin-bottom: 18px;
+  height: 40px;
+}
+
+.explanation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.explanation p {
+  padding: 0px;
+  margin: 0;
+}
+
+#zero {
+  visibility: hidden;
+}
+
+.stars label:hover,
+.stars label:hover ~ label,
+.stars input[type="radio"]:checked ~ label {
+  color: rgb(203, 25, 25);
+}
+
+.submit-btn {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#text-input{
+  width: 500px;
+  height: 200px;
+  border: 1px solid rgb(109, 109, 109);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#select-input {
+  width: 500px;
+}
+
+#cr-title {
+  text-align: center;
+}

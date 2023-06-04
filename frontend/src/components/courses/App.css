@@ -1,0 +1,91 @@
+.courseRating-bigger {
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.head2 {
+    margin-left: 20px;
+    display: flex;
+}
+
+.subH1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
+
+#cr-title {
+    margin-top: 15px;
+}   
+
+h3 {
+    text-align: center;
+}
+
+.category div {
+    display: flex;
+    justify-content: center;
+}
+
+.courseTable {
+    margin: 0;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.category {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category h3 {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.category Button {
+    font-size: 14px;
+    padding: 4px;
+    margin-right: 1px;
+    margin-top: -5px;
+    border: 0.5px solid rgb(197, 196, 196);
+}
+
+@media  screen and (max-width: 1100px) {
+    .courseRating-bigger {
+        width: 800px;
+    }
+}
+
+@media  screen and (max-width: 820px) {
+    .NavBar {
+        width: 520px;
+    }
+    .courseRating-bigger {
+        width: 700px;
+    }
+
+    .introHeader {
+       width: 520px;
+    }
+}
+
+@media  screen and (max-width: 550px) {
+    .courseRating-bigger {
+        width: 320px;
+        margin-left: 330px;
+    }
+}
+
